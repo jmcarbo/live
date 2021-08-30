@@ -228,7 +228,9 @@ func (h *Handler) serveWS(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	c, err := websocket.Accept(w, r, nil)
+	c, err := websocket.Accept(w, r, &websocket.AcceptOptions{	
+		InsecureSkipVerify: true,
+	})
 	if err != nil {
 		h.Error(r.Context(), w, r, err)
 		return
