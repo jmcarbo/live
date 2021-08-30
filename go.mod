@@ -1,4 +1,4 @@
-module github.com/jfyne/live
+module github.com/jmcarbo/live
 
 go 1.15
 
