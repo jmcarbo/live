@@ -3,7 +3,7 @@ package live
 import (
 	"net/http"
 
-	"github.com/jfyne/live/internal/embed"
+	"github.com/jmcarbo/live/internal/embed"
 )
 
 // Javascript handles serving the client side
