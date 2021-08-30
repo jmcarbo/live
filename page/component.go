@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/jfyne/live"
+	"github.com/jmcarbo/live"
 )
 
 // RegisterHandler the first part of the component lifecycle, this is called during component creation

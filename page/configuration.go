@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/jfyne/live"
+	"github.com/jmcarbo/live"
 )
 
 // ComponentConfig configures a component.

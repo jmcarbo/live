@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/jfyne/live"
+	"github.com/jmcarbo/live"
 )
 
 // NewGreeter creates a new greeter component.
